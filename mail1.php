@@ -10,7 +10,7 @@ $mail = new PHPMailer(true);
 try { 
 	//$mail->SMTPDebug = 2;									 
 	$mail->isSMTP();											 
-	$mail->Host	 = 'ssl://smtp.zoho.in';					 
+	$mail->Host	 = 'ssl://sharedlinux.cloudhostdns.net';					 
 	$mail->SMTPAuth = true;							 
 	$mail->Username = 'piyushagrawal010@gmail.com';				 
 	$mail->Password = 'Agrawal@1998';						 
