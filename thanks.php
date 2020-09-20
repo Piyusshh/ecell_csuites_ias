@@ -1,5 +1,10 @@
 <?php
-    $name = $_GET["name"];
+
+session_start();
+
+
+$name = $_GET["name"];
+//$name = $_SESSION['leader_email'];
 
 ?>
 
