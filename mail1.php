@@ -14,8 +14,8 @@ try {
 	$mail->SMTPAuth = true;							 
 	$mail->Username = 'piyushagrawal010@gmail.com';				 
 	$mail->Password = 'Agrawal@1998';						 
-	$mail->SMTPSecure = 'ssl';							 
-	$mail->Port	 = 465; 
+	$mail->SMTPSecure = 'tls';							 
+	$mail->Port	 = 587; 
 
 	$mail->setFrom('piyushagrawal010@gmail.com', 'Piyush');		 
 	$mail->addAddress('1raunakagrawal@gmail.com'); 
