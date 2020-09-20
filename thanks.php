@@ -3,8 +3,9 @@
 session_start();
 
 
-$name = $_GET["name"];
+//$name = $_GET["name"];
 //$name = $_SESSION['leader_email'];
+$name = $_SESSION['leader_name'];
 
 ?>
 
