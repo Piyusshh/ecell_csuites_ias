@@ -180,32 +180,32 @@ $_SESSION['login_use'] = 'ecell';
 
                 <div class="col-md-4">
                   <h4>Connect to mentors, incubators and investors</h4>
-                  <p>Members of <strong>C-Suites</strong> will get direct access to the resources and network of E-Cell VNIT.</p>
+                  <p>Members of <strong>C-Suites</strong>get direct access to the resources and network of E-Cell VNIT. We assist you to find the best mentor for you and your start-up according to the industry you are working in.</p>
                 </div>
 
                 <div class="col-md-4">
                   <h4>Exclusive Guest Lectures by eminent personalities</h4>
-                  <p>These will be high profile guest lectures that will be exclusively arranged for members of C-Suites</p>
+                  <p>High profile guest lectures are exclusively arranged for members of C-Suites. Guests include industry leaders, innovators and notable VNIT alumni.</p>
                 </div>
 
                 <div class="col-md-4">
                   <h4>Advantage in StartUp Conclave</h4>
-                  <p>Active members of C-Suites with a start-up idea will enjoy the liberty of bypassing the Questionnaire Round of StartUp Conclabe and directly enter the Business Model round.</p>
+                  <p>Active members of C-Suites enjoy the liberty of bypassing the Questionnaire Round and directly enter the Business Model round of StartUp Conclave.</p>
                 </div>
 
                 <div class="col-md-4 mt-md-5">
                   <h4>Curated Learning Material</h4>
-                  <p>Members of C-Suites shall get daily/weekly curated articles about several concepts of business and entrepreneurship covering a plethora of topics from idea generation to valuations and more complex stuff</p>
+                  <p>Members of C-Suites get regular curated articles about several concepts of business and entrepreneurship covering a plethora of topics from idea generation to valuations and deeper concepts.</p>
                 </div>
 
                 <div class="col-md-4 mt-md-5">
                   <h4>Biweekly Meetups</h4>
-                  <p>Once every fortnight, all entrepreneurs will connect to each other to discuss their progress/ problems they are facing. Several activities like group discussion/ case studies activities can be organised if the members of C-Suites show interest.</p>
+                  <p>Once every fortnight, all entrepreneurs connect to each other to discuss their progress/ problems they are facing. Several activities like group discussion, case studies, pitching sessions, etc. are organised.</p>
                 </div>
 
                 <div class="col-md-4  mt-md-5">
                   <h4>Feedback based sessions</h4>
-                  <p>Through these biweekly sessions, members can request a session/lecture on a particular topic. E-Cell VNIT shall take the responsibility of arranging the session for the C-Suites</p>
+                  <p>Members of C-Suites can request a session/lecture on a particular topic anytime. E-Cell VNIT takes the responsibility of arranging the session for the members of C-Suites by inviting an expert on the particular topic.</p>
                 </div>
 
               </div>
