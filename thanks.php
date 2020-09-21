@@ -26,16 +26,15 @@ $name = $_SESSION['leader_name'];
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     </head>
   <body>
-        <div class="container d-flex justify-content-center">
-            <div class="row">
-                <div class="text-center">
-                <h2>
-                  <?php echo "Welcome to the community ". $name .". You'll hear from us very soon.";?><br>
-                  You'll be redirected in 5 seconds. 
-                  <?php header('refresh:5; url=index.php');?>
-                </h2>
+        <div class="">
+        <div class="container d-flex align-items-center justify-content-center min-vh-100">
+            <div class="row text-center">
+                <div class="">
+                  <?php echo "<h4>Welcome to the community $name. You'll hear from us very soon.</h4>";?><br>
+                <button class="btn btn-danger rounded-pill justify-content-center "><a class="badge badge-danger rounded-pill" href="index.php">Return to Home</a></button>
                 </div>
             </div>
+        </div>
         </div>
         
     <!-- Optional JavaScript -->
