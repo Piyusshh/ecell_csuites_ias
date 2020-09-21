@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+require_once('mailing.php');
 
 
 if(isset($_POST['submit_row']))
@@ -14,8 +15,8 @@ if(isset($_POST['submit_row']))
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error){
     die("Connection failed: " . $conn->connect_error);
-}	 
- 
+}
+
  $name=$_POST['name'];
  $age=$_POST['age'];
  $job=$_POST['job'];
@@ -34,15 +35,15 @@ if ($conn->connect_error){
     echo $age[$i];
     echo $job[$i];
     $_SESSION['leader_email'] = $job[0];
-   $sql = "INSERT INTO employee_table (name, age, job, startidea, startdesc, leaderid, leaderrollno) VALUES ('$name[$i]', '$age[$i]', '$job[$i]','$startidea', '$startdesc', '$leaderid', '$leaderrollno' )";   
+   $sql = "INSERT INTO employee_table (name, age, job, startidea, startdesc, leaderid, leaderrollno) VALUES ('$name[$i]', '$age[$i]', '$job[$i]','$startidea', '$startdesc', '$leaderid', '$leaderrollno' )";
    if ($conn->query($sql) === TRUE) {
      header('LOCATION:thanks.php');
     //header('LOCATION:thanks.php?name='.$name[0]);
   } else {
     echo "Error: " . $sql . "<br>" . $conn->error;
-  } 
+  }
   }
  }
- 
+
 }
 ?>
