@@ -43,6 +43,7 @@ $_SESSION['login_use'] = 'ecell';
     <link href="css/theme/red.css" rel="stylesheet" type="text/css"/>
 
     <!-- Favicon -->
+    <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <link rel="apple-touch-icon" href="img/icon.png">
 

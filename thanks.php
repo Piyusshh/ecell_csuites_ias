@@ -24,6 +24,8 @@ $name = $_SESSION['leader_name'];
     <link rel="stylesheet" href="css/thanks.css">
     <!-- Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
     </head>
   <body>
         <div class="">
