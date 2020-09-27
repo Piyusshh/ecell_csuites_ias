@@ -50,17 +50,18 @@ function htmlMail($t, $sub, $name, $teamname, $event){
                   <body>
 
                       <div style='background: #0b0b0b; padding:10px 30px;'><img src='https://www.ecellvnit.org/img/logo-ecell.png'></div>
-                      <h2 style='font-size:22px;'>Welcome to Consortium'20</h2><br>
+                      <h2 style='font-size:22px;'>Welcome to C-Suites | E-Cell VNIT</h2><br>
 
                       <div class='context'>
 
 
-                          <h3><b>Hello ".$name.",</b></h3>
+                          <h3><b>Greetings ".$name."!</b></h3>
 
 
                           <p>Thank You for registering! You are now a part of the community of dreamers and innovators of VNIT Nagpur, <b>The C-Suites</b>.</p>
                           <div>
-                              <p>We are well pleased to have you on board.<br/><br/>
+                              <p>We are well pleased to have you on board.<br/>
+                              <p>We will contact you soon to brief you about planned activities.<br/>
                               For queries and in case of any difficulty, feel free to contact us.<br>
                               Lakshya: +91 77384 46941<br>
                                   <p>
@@ -75,7 +76,7 @@ function htmlMail($t, $sub, $name, $teamname, $event){
               </html>";
 
     $url = 'https://startupconclave.ecellvnit.org/send';
-    $data = array('subject' => $subject, 'email' => $to, 'html' => $html, 'pass' => 'Entrepreneurs2000');
+    $data = array('subject' => $subject, 'email' => $to, 'html' => $html, 'pass' => 'Entrepreneurs2020');
 
     // use key 'http' even if you send the request to https://...
     $options = array(

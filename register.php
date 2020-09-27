@@ -23,6 +23,8 @@ else{
     <link rel="stylesheet" href="css/formStyle.css">
     <!-- Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link rel = "icon" href = "images/icon.png" type = "image/x-icon">
 </head>
 <body>
     <div class="container d-flex justify-content-center pt-3 shadow-lg p-3 mb-5 bg-white rounded">
