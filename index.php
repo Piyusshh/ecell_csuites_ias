@@ -181,7 +181,7 @@ $_SESSION['login_use'] = 'ecell';
 
                 <div class="col-md-4">
                   <h4>Connect to mentors, incubators and investors</h4>
-                  <p>Members of <strong>C-Suites</strong>get direct access to the resources and network of E-Cell VNIT. We assist you to find the best mentor for you and your start-up according to the industry you are working in.</p>
+                  <p>Members of <strong>C-Suites</strong> get direct access to the resources and network of E-Cell VNIT. We assist you to find the best mentor for you and your start-up according to the industry you are working in.</p>
                 </div>
 
                 <div class="col-md-4">
@@ -292,8 +292,8 @@ $_SESSION['login_use'] = 'ecell';
       <div class="row">
 
         <div class="col-sm-12 col-md-3 col-lg-3">
-          <h4 class="g-color--white-opacity"><b>Consortium'19</b></h4>
-          <a href="https://ca.ecellvnit.org/" target="_blank" class="g-color--white-opacity-light footer-para g-font-size-16--xs">
+          <h4 class="g-color--white-opacity"><b>Consortium'21</b></h4>
+          <a href="https://consortium.ecellvnit.org/" target="_blank" class="g-color--white-opacity-light footer-para g-font-size-16--xs">
             Consortium, the Annual Entrepreneurship Summit of VNIT Nagpur
           </a>
         </div>
@@ -301,19 +301,19 @@ $_SESSION['login_use'] = 'ecell';
         <div class="col-sm-12 col-md-3 col-lg-3">
           <h4 class="g-color--white-opacity"><b>Startup Conclave</b></h4>
           <a href="https://startupconclave.ecellvnit.org/" target="_blank" class="g-color--white-opacity-light footer-para g-font-size-16--xs">
-            StartUp Conclave, a national-level business plan competition and a part of Consortium'19
+            StartUp Conclave, a national-level business plan competition and a part of Consortium'21
           </a>
         </div>
 
         <div class="col-sm-12 col-md-3 col-lg-3">
           <h4 class="g-color--white-opacity"><b>Buy Merchandise</b></h4>
           <a href="https://store.ecellvnit.org/" target="_blank" class="g-color--white-opacity-light footer-para g-font-size-16--xs">
-            Buy official merchandise of Consortium'19 at Ecell VNIT online store.
+            Buy official merchandise of Consortium'21 at Ecell VNIT online store.
           </a>
         </div>
         <div class="col-sm-12 col-md-3 col-lg-3">
           <h4 class="g-color--white-opacity"><b>Startup Expo</b></h4>
-          <a href="../expo.php" target="_blank" class="g-color--white-opacity-light footer-para g-font-size-16--xs">
+          <a href="https://consortium.ecellvnit.org/expo.php" target="_blank" class="g-color--white-opacity-light footer-para g-font-size-16--xs">
             A grand platform for startups to display their product and/ or service to all the people.
           </a>
         </div>
