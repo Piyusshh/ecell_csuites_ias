@@ -14,7 +14,7 @@ $_SESSION['login_use'] = 'ecell';
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>E-CELL, VNIT</title>
+    <title>C-Suites | E-Cell VNIT</title>
     <meta name="keywords" content="Ecell, vnit, E-cell VNIT, entreprenuship cell, csuites, 2020, , vnit csuites" />
     <meta name="description" content="E-Cell VNIT aims to promote and develop entrepreneurship culture amongst the students. Throughout the year, we
                         conduct various events, workshops and speaker

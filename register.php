@@ -2,7 +2,7 @@
 session_start();
 
 if(isset($_POST['submit_member']))
-{   
+{
     $mem = $_POST['SIZE'];
 
 }
@@ -16,7 +16,7 @@ else{
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+    <title>Registration | C-Suites</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- external css  -->
@@ -29,7 +29,7 @@ else{
 <body>
     <div class="container d-flex justify-content-center pt-3 shadow-lg p-3 mb-5 bg-white rounded">
         <div class="row">
-            <form class="p-4" method="post" action="store_detail.php">                
+            <form class="p-4" method="post" action="store_detail.php">
                 <div class="card-heading text-center">
                     <h1 class="title pb-2">Registration</h1>
                     <hr>
@@ -81,7 +81,7 @@ else{
                 <?php
                     for($i=2; $i<=$mem; $i++):
                 ?>
-                <br>    
+                <br>
                     <div class="form-group row">
                         <p style="color: white;"><?php echo "Team member " . $i; ?></p>
                         <input class="form-control rounded-pill" type="text" name="name[]" placeholder="Enter Name" required>
