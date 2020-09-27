@@ -1,6 +1,8 @@
 <?php
 
 session_start();
+// error_reporting(E_ALL);
+//   ini_set('display_errors', '1');
 require_once('mailing.php');
 
 
@@ -31,16 +33,22 @@ if ($conn->connect_error){
  {
   if($name[$i]!="" && $age[$i]!="" && $job[$i]!="")
   {
-    echo $name[$i];
-    echo $age[$i];
-    echo $job[$i];
+    // echo $name[$i];
+    // echo $age[$i];
+    // echo $job[$i];
     $_SESSION['leader_email'] = $job[0];
    $sql = "INSERT INTO employee_table (name, age, job, startidea, startdesc, leaderid, leaderrollno) VALUES ('$name[$i]', '$age[$i]', '$job[$i]','$startidea', '$startdesc', '$leaderid', '$leaderrollno' )";
    if ($conn->query($sql) === TRUE) {
-     header('LOCATION:thanks.php');
+     $s = "Welcome to C-Suites";
+     $sent = htmlMail($job[0],$s,$name[0],'', '');
+     if($sent){
+       header('LOCATION:thanks.php');
+     }else {
+       echo("Error description: " . mysqli_error($conn));
+     }
     //header('LOCATION:thanks.php?name='.$name[0]);
   } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Error:" . $sql . "<br>" . $conn->error;
   }
   }
  }

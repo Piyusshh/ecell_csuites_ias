@@ -35,15 +35,15 @@ else{
                     <hr>
                 </div>
                 <div class="form-group row">
-                    <label for="startidea" class="col-md-4 col-form-label">Startup Idea</label>
+                    <label for="startidea" class="col-md-4 col-form-label">Startup Idea (Name)</label>
                     <div class="col-md-8">
-                        <input type="text" class="form-control rounded-pill" name="startidea" placeholder="Startup Idea" required>
+                        <input type="text" class="form-control rounded-pill" name="startidea" placeholder="Startup Name" required>
                     </div>
                 </div>
                 <div class="form-group row">
                     <label for="startdesc" class="col-md-4 col-form-label">Startup Description</label>
                     <div class="col-md-8">
-                        <input type="text" class="form-control rounded-pill" name="startdesc" placeholder="Startup Description" required>
+                        <input type="text" class="form-control rounded-pill" name="startdesc" placeholder="Startup Description (30-50 words)" required>
                     </div>
                 </div>
                 <div class="form-group row">
