@@ -33,7 +33,7 @@ $name = $_SESSION['leader_name'];
         <div class="container d-flex align-items-center justify-content-center min-vh-100">
             <div class="row text-center">
                 <div class="">
-                  <?php echo "<h4>A confirmation email has been sent you. <br>Welcome to the community,<b style=color:red> $name!</b></h4>";?><br>
+                  <?php echo "<h4>We will contact you soon. <br>Welcome to the community,<b style=color:red> $name!</b></h4>";?><br>
                 <button class="btn btn-danger rounded-pill justify-content-center "><a class="badge badge-danger rounded-pill" href="index.php">Return to Home</a></button>
                 </div>
             </div>
