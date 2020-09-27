@@ -44,6 +44,7 @@ if ($conn->connect_error){
      if($sent){
        header('LOCATION:thanks.php');
      }else {
+       header('LOCATION:index.php');
        echo("Error description: " . mysqli_error($conn));
      }
     //header('LOCATION:thanks.php?name='.$name[0]);

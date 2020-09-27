@@ -92,7 +92,10 @@ function htmlMail($t, $sub, $name, $teamname, $event){
     $result = file_get_contents($url, false, $context);
     if ($result === FALSE) {
         $msg = 'We are facing problem in sending email. Please use this link to pay your registration fees.';
+        return false;
     }
+
+    return true;
 
   }
 ?>
