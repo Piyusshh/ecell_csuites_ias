@@ -12,7 +12,7 @@ $sub = "Welcome To C-Suites";
 $teamname = "";
 $event = "";
 
-htmlMail($to_email, $sub, $name, $teamname, $event );
+//htmlMail($to_email, $sub, $name, $teamname, $event );
 ?>
 
 
