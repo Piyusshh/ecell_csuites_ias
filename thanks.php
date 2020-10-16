@@ -1,13 +1,18 @@
 <?php
 
 session_start();
-// require_once('mailing.php');
+require_once('mailing.php');
 
 
 //$name = $_GET["name"];
 //$name = $_SESSION['leader_email'];
 $name = $_SESSION['leader_name'];
+$to_email = $_SESSION['leader_email'];
+$sub = "Welcome To C-Suites";
+$teamname = "";
+$event = "";
 
+htmlMail($to_email, $sub, $name, $teamname, $event );
 ?>
 
 
