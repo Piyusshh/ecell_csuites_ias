@@ -1,7 +1,7 @@
 <?php
 
 session_start();
-require_once('mailing.php');
+include('mailing.php');
 
 
 //$name = $_GET["name"];
