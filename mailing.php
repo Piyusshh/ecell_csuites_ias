@@ -12,52 +12,58 @@ function htmlMail($t, $sub, $name, $teamname, $event){
     $html = "<!DOCTYPE html>
               <html>
                   <head>
-                      <style>
-                          li{
-                              padding:10px;
-                          }
-                          p{
-                              font-size:16px;
-                          }
+                  <style>
+                      li{
+                          padding:10px;
+                      }
 
-                          *{
-                              font-family:Helvetica,Arial,sans-serif;
-                          }
 
-                          h2{
-                              text-align: center;
-                              margin-top: 150px;
+                      *{
+                          font-family:Helvetica,Arial,sans-serif;
+                      }
 
-                          }
-                          html, body{
-                              background-color:#f7f9fb;
-                              margin: 0;
-                          }
-                          .context {
-                              font-size: 12px;
-                              padding: 40px 60px;
-                              margin-left:10%;
-                              margin-right: 10%;
-                          }
+                      h2
+                      {
+                        font-size: 1.3rem;
+                      }
+                      html, body{
+                          background-color:#f7f9fb;
+                          margin: 0;
+                      }
+                      .context {
+                          font-size: 12px;
+                          padding: 40px 50px;
+                          margin-left:7%;
+                          margin-right: 7%;
+                      }
 
-                          .context p{
-                              font-size: 12px;
-                          }
-                          p{
-                              margin: 15px 0px;
-                          }
 
-                      </style>
+                      p{
+                          margin: 15px 0px;
+                      }
+
+                      @media(max-width: 600px)
+                      {
+                        .context{
+                          padding: 0px 30px;
+                          margin-left: 0;
+                          margin-right: 0;
+                        }
+                      }
+
+                  </style>
+
                   </head>
+
                   <body>
 
                       <div style='background: #0b0b0b; padding:10px 30px;'><img src='https://www.ecellvnit.org/img/logo-ecell.png'></div>
-                      <h2 style='font-size:22px;'>Welcome to C-Suites | E-Cell VNIT</h2><br>
+                      <h2 style='font-size:22px; text-align: center;'>Welcome to C-Suites | E-Cell VNIT</h2><br>
 
                       <div class='context'>
 
 
-                          <h3><b>Greetings ".$name."!</b></h3>
+                          <h2><b>Greetings ".$name."!</b></h2>
 
 
                           <p>Thank You for registering! You are now a part of the community of dreamers and innovators of VNIT Nagpur, <b>The C-Suites</b>.</p>
@@ -65,8 +71,8 @@ function htmlMail($t, $sub, $name, $teamname, $event){
                               <p>We are well pleased to have you on board.<br/>
                               <p>We will contact you soon to brief you about planned activities.<br/>
                               For queries and in case of any difficulty, feel free to contact us.<br>
-                              Lakshya: +91 77384 46941<br>
-                                  <p>
+                              Lakshya: +91 77384 46941
+                              <p>
                                   With warm regards,<br>
                                   E-Cell VNIT
                               </p>
